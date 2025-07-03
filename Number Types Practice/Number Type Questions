@@ -1,0 +1,110 @@
+🔢 List of Special Number Types
+1. Armstrong Number
+A number is Armstrong if the sum of its digits raised to the power of the number of digits equals the number itself.
+
+Example: 153 = 1³ + 5³ + 3³ = 153
+
+2. Perfect Number
+A number whose sum of its proper divisors (excluding itself) equals the number.
+
+Example: 28 → 1 + 2 + 4 + 7 + 14 = 28
+
+3. Palindrome Number
+A number that reads the same backward as forward.
+
+Example: 121, 1331
+
+4. Prime Number
+A number greater than 1 that has only two factors: 1 and itself.
+
+Example: 2, 3, 5, 7, 11
+
+5. Composite Number
+A number greater than 1 that is not prime.
+
+Example: 4, 6, 8, 9
+
+6. Automorphic Number
+A number whose square ends in the same digits as the number itself.
+
+Example: 76 → 76² = 5776
+
+7. Strong Number
+A number whose sum of the factorials of its digits is equal to the number itself.
+
+Example: 145 = 1! + 4! + 5! = 145
+
+8. Harshad Number (Niven Number)
+A number divisible by the sum of its digits.
+
+Example: 18 → 1 + 8 = 9, and 18 % 9 = 0
+
+9. Spy Number
+A number where the sum and the product of its digits are equal.
+
+Example: 112 → sum = 1+1+2=4, product = 1×1×2=2 (so not a spy number); 123 → sum = 6, product = 6
+
+10. Kaprekar Number
+If the square of the number is split into two parts, the sum of those parts is equal to the original number.
+
+Example: 45 → 45² = 2025 → 20 + 25 = 45
+
+11. Happy Number
+Repeatedly replacing a number by the sum of the squares of its digits eventually results in 1.
+
+Example: 19 → 1²+9² = 82 → 8²+2² = 68 → ... → 1 (Happy)
+
+12. Duck Number
+A number that contains at least one zero but doesn’t start with zero.
+
+Example: 3210
+
+13. Buzz Number
+A number that is either divisible by 7 or ends with 7.
+
+Example: 77, 27
+
+14. Evil Number
+A number whose binary representation contains an even number of 1’s.
+
+Example: 3 → 011 → two 1’s → evil
+
+15. Abundant Number
+A number where the sum of its proper divisors is greater than the number.
+
+Example: 12 → divisors = 1+2+3+4+6 = 16 > 12
+
+16. Deficient Number
+A number where the sum of its proper divisors is less than the number.
+
+Example: 8 → divisors = 1+2+4 = 7 < 8
+
+17. Friendly Pair (Amicable Numbers)
+Two numbers where the sum of proper divisors of one equals the other.
+
+Example: (220, 284)
+
+18. Twin Primes
+A pair of prime numbers that differ by 2.
+
+Example: (3, 5), (11, 13)
+
+19. Circular Prime
+A prime number that remains prime under all rotations of its digits.
+
+Example: 197 → 971 and 719 are also prime
+
+20. Emirp Number
+A non-palindromic prime number that remains prime when its digits are reversed.
+
+Example: 13 → 31
+
+21. Square Number
+A number that is the square of an integer.
+
+Example: 4, 9, 16
+
+22. Cube Number
+A number that is the cube of an integer.
+
+Example: 8, 27, 64
